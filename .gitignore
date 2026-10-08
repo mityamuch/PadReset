@@ -1,0 +1,12 @@
+.dotnet/
+.nuget/
+.local/
+**/bin/
+**/obj/
+dist/
+.vs/
+*.user
+*.suo
+*.log
+PrintRestart/
+analysis/

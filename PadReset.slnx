@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PadReset.Core/PadReset.Core.csproj" />
+    <Project Path="src/PadReset.Windows/PadReset.Windows.csproj" />
+    <Project Path="src/PadReset/PadReset.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PadReset.Tests/PadReset.Tests.csproj" />
+  </Folder>
+</Solution>

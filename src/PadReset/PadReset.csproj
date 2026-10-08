@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>PadReset</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../PadReset.Core/PadReset.Core.csproj" />
+    <ProjectReference Include="../PadReset.Windows/PadReset.Windows.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../PadReset.Core/PadReset.Core.csproj" />
+    <InternalsVisibleTo Include="PadReset.Tests" />
+  </ItemGroup>
+</Project>
